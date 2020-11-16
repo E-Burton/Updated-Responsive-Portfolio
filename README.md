@@ -30,22 +30,9 @@ Create an updated mobile responsive portfolio that features two exemplary projec
 
 ## Website Mock-Up
 
-The following images show the portfolio's apperance and functionality:
+The following animation demonstrates the portfolio's apperance and functionality:
 
-![About Demo](./Assets/Images/About.png)
-
-![Portfolio Demo](./Assets/Images/Portfolio.png)
-
-![Contact Demo](./Assets/Images/Contact.png)
-
-![About Mobile Demo](./Assets/Images/About-Mobile.png)
-
-![About Mobile Dropdwon Demo](./Assets/Images/About-Mobile-Dropdown.png)
-
-![Portfolio Mobile](./Assets/Images/Portfolio-Mobile.png)
-
-![Contact Mobile](./Assets/Images/Contact-Mobile.png)
-
+![About Demo](./Assets/Images/Portfolio-Demo.gif)
 
 ## Link to Webiste
 
@@ -58,6 +45,5 @@ The following images show the portfolio's apperance and functionality:
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [How To: Social Media Buttons](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
 * [Centering iframe in Bootstrap](https://stackoverflow.com/questions/25560954/how-do-i-center-youtube-video-iframe-in-twitter-bootstrap-3)
-* [How To: Position Text Over an Image](https://www.w3schools.com/howto/howto_css_image_text.asp)
 * [How to Capture Full Page Screenshots](https://helpdeskgeek.com/how-to/how-to-capture-full-page-screenshots-in-chrome-firefox/)
 

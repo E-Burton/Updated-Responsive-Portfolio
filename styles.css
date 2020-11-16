@@ -22,11 +22,12 @@ nav {
 }
 
 /* Setting column background and padding */
-.col-md-8, .col-md-12 {
+.col-md-6, .col-md-8, .col-md-12 {
   background-color: white;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 15px;
+  margin: 0 auto;
 }
 
 /* Setting header 1 & 5 font-family */
@@ -49,9 +50,15 @@ img {
   padding-bottom: 15px;
 }
 
+/* Setting margin for columns on contact page */
+.col-md-5, .col-md-7 {
+  margin-bottom: -18px;
+}
+
 /* Setting max-width for form */
 form {
-  max-width: 75%;
+  max-width: 95%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /* Setting bottom margin for columns containing image thumbnail links */
@@ -84,9 +91,15 @@ a img {
   padding: 5px;
 }
 
+/* Setting font and text color for GitHub repository links on portfolio page */
 .repo-link {
   color: black;
   font-family: "Josefin Sans", sans-serif;
+}
+
+/* Setting font color for resume-link on portfolio page */
+.resume-link {
+  color: black;
 }
 
 /* Removing navbar bottom margin to allow sticky footer to sit at bottom of viewport */
