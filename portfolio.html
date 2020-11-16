@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <!-- Linking Bootstrap CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Linking GoogleFonts CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Josefin+Sans:wght@300&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Adding social media icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand mb-0 h0">Edwina Burton</span>
+      <!-- Button for navbar dropdown for smaller viewports -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links to About, Portfolio, and Contact -- Collapase behind button on smaller viewports -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-md-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <!-- Highlights/Bolds active navbar link (Portfolio) -->
+          <li class="nav-item active">
+            <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Conatiner for Portfolio Content -->
+    <section class="container">
+      <section class="row">
+        <article class="col-md-12">
+          <h1>Portfolio</h1>
+          <hr />
+          <section class="row">
+
+            <article class="col-sm-3">
+              <!-- Link to portfolio project -->
+              <a class="text-white" target="_blank" href="./Assets/Projects/Module-5/fanpage_with_style.html">
+                <!-- Custom Container to hold thumbnail and center description text -->
+                <div class="custom-container">
+                  <!-- Thumbnail for portfolio link -->
+                  <img
+                    src="https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    alt="Tribute Page"
+                    title="Tribute Page"/>
+                    <div class="centered">Tribute Page</div>
+                </div>
+              </a>
+            </article>
+
+            <!-- Adding spacing between columns/image thumbnail links -->
+            <article class="col-sm-1"></article>
+
+            <article class="col-sm-3">
+              <!-- Link to portfolio project -->
+              <a class="text-white" target="_blank" href="./Assets/Projects/Module-6/index.html">
+                <!-- Custom Container to hold thumbnail and center description text -->
+                <div class="custom-container">
+                  <!-- Thumbnail for portfolio link -->
+                  <img
+                  src="https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  alt="JavaScript Project Image"
+                  title="JavaScript Project Image"/>
+                  <div class="centered">Fun JavaScript</div>
+                </div>
+              </a>
+            </article>
+
+            <!-- Adding spacing between columns/image thumbnail links -->
+            <article class="col-sm-1"></article>
+
+            <article class="col-sm-3">
+              <!-- Link to portfolio project -->
+              <a class="text-white" target="_blank" href="https://scratch.mit.edu/projects/424837172/">
+                <!-- Custom Container to hold thumbnail and center description text -->
+                <div class="custom-container">
+                  <!-- Thumbnail for portfolio link -->
+                  <img
+                  src="https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  alt="JavaScript Project Image"
+                  title="JavaScript Project Image"/>
+                  <div class="centered">Scatch Game!</div>
+                </div>
+              </a>
+            </article>
+          </section>
+          
+        </article>
+      </section>
+    </section>
+
+    <!-- Sticky Footer with Centered Social Medai Icon Link Placeholders -->
+    <footer>
+      <nav class="navbar sticky-top navbar-light bg-light justify-content-center">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link fa fa-github"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link fa fa-instagram"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link fa fa-linkedin"></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- Linking Boostrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous">
+    </script>
+
+  </body>
+</html>

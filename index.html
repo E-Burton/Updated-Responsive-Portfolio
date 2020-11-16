@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <!-- Linking Bootstrap CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Linking GoogleFonts CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Josefin+Sans:wght@300&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Adding social media icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand mb-0 h0">Edwina Burton</span>
+      <!-- Button for navbar dropdown for smaller viewports -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!-- Navbar links to About, Portfolio, and Contact -- Collapase behind button on smaller viewports -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-md-auto mt-2 mt-lg-0">
+          <!-- Highlights/Bolds active navbar link (About) -->
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Container for About Me content -->
+    <section class="container">
+      <section class="row">
+        <article class="col-md-8">
+          <br />
+          <h1>About Me</h1>
+          <hr />
+          <img
+            src="./Assets/Images/IMG_0576.JPG"
+            alt="Picture of Me"
+            title="Picture of Me"
+            class="img-fluid"/>
+
+          <p>
+            Hello! I'm a Colorado Native and I love fitness competition shows
+            (like Titan Games and American Ninja Warrior) and am obsessed with
+            Tetris. In my free time I enjoy spending time with my partner, going
+            on walks and cycling together, and taking the dogs to the dog park.
+            I value getting things done correctly and efficiently, and believe
+            that consistent learning and growth (no matter how big or small) is
+            key in achieving any aspiration. Keeping this in mind, I view any
+            challenge as an opportunity to hone and improve my skills.
+          </p>
+
+          <p>
+            While purusing my undergraduate degree I was exposed to programming.
+            Initially I didn't like it, but later found appreciation in the
+            puzzle and problem solving features, and the joy that came with
+            finally creating a project that was functioning as intended. After
+            having spent a few years as a forecasting analyst, I realized that I
+            needed to pursue a field that involved more creativity and allowed
+            for constant learning, which is why I made the decision to pursuse
+            the University of Denver's Full Stack Coding Bootcamp. The
+            experience thus far has been great, and I'm excited for what's to
+            come!
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <!-- Sticky Footer with Centred Social Medai Icon Link Placeholders -->
+    <footer>
+      <nav class="navbar sticky-top navbar-light bg-light justify-content-center">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link fa fa-github"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link fa fa-instagram"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link fa fa-linkedin"></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- Linking Boostrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
