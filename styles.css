@@ -29,8 +29,8 @@ nav {
   padding-bottom: 15px;
 }
 
-/* Setting header 1 font-family */
-h1 {
+/* Setting header 1 & 5 font-family */
+h1, h5 {
   font-family: "Ultra", serif;
 }
 
@@ -57,6 +57,7 @@ form {
 /* Setting bottom margin for columns containing image thumbnail links */
 .col-sm-3 {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Setting flex and centering properties for image thumbnail link */
@@ -67,9 +68,11 @@ form {
   align-content: center;
 }
 
-/* Centering text for image thumbnail link */
+/* Centering text under project image thumbnail link, applying top margin, and setting font */
 .centered {
-  position: absolute;
+  margin-top: 8px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /* Setting size, boarder, and margins for thumbnail link images on 'Portfolio Page' */
@@ -79,6 +82,11 @@ a img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
+}
+
+.repo-link {
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /* Removing navbar bottom margin to allow sticky footer to sit at bottom of viewport */

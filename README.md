@@ -49,6 +49,7 @@ The following images show the portfolio's apperance and functionality:
 
 ## Link to Webiste
 
+* [Responsive Portfolio](https://e-burton.github.io/Updated-Responsive-Portfolio/)
 
 ## Additional Resources
 
